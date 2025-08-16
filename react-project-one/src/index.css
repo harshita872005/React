@@ -6,8 +6,11 @@
 }
 body{
   height: 100vh;
+  background-color: burlywood;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: burlywood;
+  
 }
+
