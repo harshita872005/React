@@ -33,9 +33,9 @@ function App() {
   // },[Count]);
   
   //variation 4: multiple dependencies
-    useEffect(()=>{
-    alert("i will render when count/total updated");
-  },[Count,total]);
+  //   useEffect(()=>{
+  //   alert("i will render when count/total updated");
+  // },[Count,total]);
 
   //variation 5:
   //iss baar lets add a cleanup function
