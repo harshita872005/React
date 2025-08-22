@@ -4,6 +4,8 @@ import './App.css'
 import Bulb from './components/Bulb'
 import TimerComponent from './components/TimerComponent'
 import DataFetcher from './components/DataFetcher'
+import ResizeComponent from './components/ResizeComponent'
+import MultiEffectComponent from './components/MultiEffectComponent'
 
 
 function App() {
@@ -14,7 +16,9 @@ function App() {
     {/* <LoggerComponent/> */}
     {/* <Bulb/> */}
     {/* <TimerComponent/> */}
-    <DataFetcher/>
+    {/* <DataFetcher/> */}
+    <MultiEffectComponent/>
+    {/* <ResizeComponent /> */}
     </>
 
   )
